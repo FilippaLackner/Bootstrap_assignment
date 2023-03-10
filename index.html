@@ -8,7 +8,26 @@
 
     <title>Bootstrap website</title>
 </head>
+
 <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="images/mexlogo.jpg" alt="mexlogo" width="70" height="70"
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="#">Contact</a>
+              <a class="nav-link" href="#">Drinks</a>
+              <a class="nav-link" href="#">Food</a>
+              <a class="nav-link disabled">Disabled</a>
+            </div>
+          </div>
+        </div>
+      </nav>
     <div class="container">
         <div class="row">
             <div class="col-4">
@@ -18,10 +37,14 @@
                         <div class="card-body">
                             <h4 class="card-title">Drinks</h4>
                             <p class="card-text">Enjoy our tasteful selection of mexican cocktails. All made with fresh indgredients and  a lot of love</p>
-                            <button type="button" class="btn btn-success" style="background-color: lightpink;">Drinks Menu</button>
+                            <div class="card-footer">
+                                <button type="button" class="btn btn-success" style="background-color: lightpink;">Drinks Menu</button>
+                            </div>
                         </div>
                     </div>
                 </div>
+            </div>
+   
             <div class="col-4">
                 <div class="card" style="width: 18rem;">
                     <img src="images/tacos.jpg" class="card-img-top" alt="tacos">
@@ -29,11 +52,12 @@
                         <div class="card-body">
                             <h4 class="card-title">Food</h4>
                             <p class="card-text"> Munch on our snacks, starters, or filling mains. All deliciously fresh and made with 100% organic indgredients!</p>
-                            <button type="button" class="btn btn-success" style="background-color:lightpink;">Food Menu</button>
+                            <div class="card-footer">
+                                <button type="button" class="btn btn-success" style="background-color:lightpink;">Food Menu</button>
+                            <div class="card-footer">
                         </div>
                     </div>
                 </div>
-                
             </div>
             <div class="col-4">
                 <div class="card" style="width: 18rem;">
@@ -42,14 +66,26 @@
                         <div class="card-body">
                             <h4 class="card-title">Live Music</h4>
                             <p class="card-text">Come and enjoy live music every Friday and Saturday from 21.00!</p>
-                            <button type="button" class="btn btn-success" style="background-color:lightpink">Check music schedule here</button>
+                            <div class="card-footer">
+                                <button type="button" class="btn btn-success" style="background-color:lightpink">Check music schedule here</button>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    </div>
+</div>
+</div>
+           
+            
+                
+                   
+                
+
+
+
+   
 
    
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
